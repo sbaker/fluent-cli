@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD095364-1AF7-4DB3-A51F-3E3933AA28C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15633680-D01C-44F7-9DF5-6DEF39C48021}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fluent-Cli", "src\Fluent-Cli\Fluent-Cli.xproj", "{B7A0A7D7-4CB0-486E-AF7E-1254F3C0211D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{31C7C8C3-DF77-43B3-80FF-4753FED1A576}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleApp1", "test\ConsoleApp1\ConsoleApp1.xproj", "{6E7FB3FD-1682-4431-A3E8-9A2A297E8599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A0A7D7-4CB0-486E-AF7E-1254F3C0211D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A0A7D7-4CB0-486E-AF7E-1254F3C0211D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A0A7D7-4CB0-486E-AF7E-1254F3C0211D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A0A7D7-4CB0-486E-AF7E-1254F3C0211D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7FB3FD-1682-4431-A3E8-9A2A297E8599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7FB3FD-1682-4431-A3E8-9A2A297E8599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7FB3FD-1682-4431-A3E8-9A2A297E8599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7FB3FD-1682-4431-A3E8-9A2A297E8599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7A0A7D7-4CB0-486E-AF7E-1254F3C0211D} = {CD095364-1AF7-4DB3-A51F-3E3933AA28C3}
+		{6E7FB3FD-1682-4431-A3E8-9A2A297E8599} = {31C7C8C3-DF77-43B3-80FF-4753FED1A576}
+	EndGlobalSection
+EndGlobal
