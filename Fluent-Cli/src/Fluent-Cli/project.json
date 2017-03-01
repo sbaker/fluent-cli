@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
 
   "buildOptions": {
@@ -6,7 +6,8 @@
   },
 
   "dependencies": {
-    "NETStandard.Library": "1.6.1"
+    "NETStandard.Library": "1.6.1",
+    "System.Console": "4.3.0"
   },
 
   "frameworks": {

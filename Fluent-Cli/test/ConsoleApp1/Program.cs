@@ -1,13 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using FluentCli;
 
 namespace ConsoleApp1
 {
-    public class Program : ConsoleApp
+    public static class Program
     {
+        private static readonly IOptionsHandler Builder = OptionsHandler.Create(true);
 
+        public static void Main(string[] args)
+        {
+            Builder.Option(
+                "-test",
+                "help text is good",
+                context => Console.WriteLine(context)
+            )
+            .Option(
+                "-param",
+                "we like parameters",
+                true,
+                context => Console.WriteLine(context),
+                "-p"
+            )
+            .Handle(args);
+        }
     }
 }
